@@ -1,0 +1,24 @@
+{
+  "name": "seraph",
+  "version": "1.0.0",
+  "description": "<img src=\"images/seraphbanner.jpg\">\r   <p align=\"center\">\r     seraph; an open source game website that hosts 350+ games with customisable settings, full rehosting support and a beautiful design\r     <br/>\r     <a href=\"https://seraph.reveriestudios.online/\">view demo</a>\r     ·\r     <a href=\"https://github.com/a456pur/seraph/issues/new/choose\">report issues / request feature</a>\r     ·\r     <a href=\"https://discord.gg/ZyZDmx3zuQ\">discord</a>\r     <br>\r     <br>\r     <img src=\"https://img.shields.io/github/repo-size/a456pur/seraph?style=for-the-badge&labelColor=%23000000&color=%231c1c1c\">\r     <img src=\"https://img.shields.io/github/stars/a456pur/seraph?style=for-the-badge&labelColor=%23000000&color=%231c1c1c\">\r     <img src=\"https://img.shields.io/github/forks/a456pur/seraph?style=for-the-badge&labelColor=000000&color=1c1c1c\">\r   </p>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a456pur/seraph.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a456pur/seraph/issues"
+  },
+  "homepage": "https://github.com/a456pur/seraph#readme",
+  "dependencies": {
+    "express": "^5.0.1",
+    "seraph": "file:"
+  }
+}
